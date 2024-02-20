@@ -15,3 +15,9 @@ Funcionalidade: Pesquisar Funcionarios
     Dado que o usuário deseja inserir um novo funcionário
     Quando ele enviar as informações do funcionário
     Então esse funcionário deve ser cadastrado
+
+  @cenario_tres
+  Cenario: Alterar informações cadastrais
+    Dado que o usuário deseje alterar alguma informação de um funcionário
+    Quando ele enviar as novas informações
+    Então as informações serão alteradas
