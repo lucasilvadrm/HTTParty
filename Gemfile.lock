@@ -4,6 +4,7 @@ GEM
     builder (3.2.4)
     bundle (0.0.1)
       bundler
+    concurrent-ruby (1.2.3)
     cucumber (9.1.2)
       builder (~> 3.2, >= 3.2.4)
       cucumber-ci-environment (~> 9.2, >= 9.2.0)
@@ -29,10 +30,14 @@ GEM
     cucumber-messages (22.0.0)
     cucumber-tag-expressions (5.0.6)
     diff-lcs (1.5.1)
+    faker (3.2.3)
+      i18n (>= 1.8.11, < 2)
     ffi (1.16.3)
     httparty (0.21.0)
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
     mini_mime (1.1.5)
     multi_test (1.1.0)
     multi_xml (0.6.0)
@@ -59,6 +64,7 @@ PLATFORMS
 DEPENDENCIES
   bundle
   cucumber
+  faker
   httparty
   rspec
 
